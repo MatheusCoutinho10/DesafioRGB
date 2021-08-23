@@ -1,0 +1,63 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    margin: 10px 5px;
+    border-radius: 4px;
+}
+
+#rangePosicao1, #rangePosicao2, #rangePosicao3{
+    width: 500px;
+}
+
+#inputCurrentPosicao1, #inputCurrentPosicao2, #inputCurrentPosicao3{
+    width: 30px;
+    text-align: center;
+}
+
+#divCor{
+    width: 400px;
+    height: 400px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: black;
+    margin: 10px auto;
+    background-color: rgb(0, 0, 0);
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    height: 10px;
+    width: 80%;
+    border-radius: 50px;
+    outline: none;
+}
+
+input[tipe="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selectRGB #rangePosicao1{
+    background: linear-gradient(90deg, #000, red);
+}
+
+.selectRGB #rangePosicao2{
+    background: linear-gradient(90deg, #000, green);
+}
+
+.selectRGB #rangePosicao3{
+    background: linear-gradient(90deg, #000, blue);
+}

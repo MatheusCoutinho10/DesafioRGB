@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Cores, RGB, vermelho, red, azul, blue, green, verde">
+		<meta name="description" content="Cores RGB">
+		<meta name="author" content="Matheus Coutinho">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<title>Cores RGB</title>
+		<link rel="shortcut icon" href="Img/rgb.png">
+    </head>
+    <body>
+        <div class="selectRGB">
+            <h1>Escolha a sua cor (RGB):</h1>
+            <label for="vermelho">(R) - Vermelho</label>
+            <input type="range" id="rangePosicao1" min="0" max="255" step="1" value="0">
+            <input type="text" id="inputCurrentPosicao1" value="0" readonly disabled><br>
+
+            <label for="verde">(G) - Verde</label>
+            <input type="range" id="rangePosicao2" min="0" max="255" step="1" value="0">
+            <input type="text" id="inputCurrentPosicao2" value="0" readonly disabled><br>
+
+            <label for="azul">(B) - Azul</label>
+            <input type="range" id="rangePosicao3" min="0" max="255" step="1" value="0">
+            <input type="text" id="inputCurrentPosicao3" value="0" readonly disabled>
+               
+            <div id="divCor">
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
