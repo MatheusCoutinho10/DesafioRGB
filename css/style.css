@@ -15,7 +15,7 @@ input{
 }
 
 #rangePosicao1, #rangePosicao2, #rangePosicao3{
-    width: 500px;
+    width: 66%;
 }
 
 #inputCurrentPosicao1, #inputCurrentPosicao2, #inputCurrentPosicao3{
