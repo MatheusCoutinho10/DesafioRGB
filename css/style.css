@@ -5,6 +5,10 @@ body{
     background-color: lightgray;
 }
 
+h1{
+    font-size: 100%;
+}
+
 label{
     font-weight: bold;
 }
@@ -15,7 +19,7 @@ input{
 }
 
 #rangePosicao1, #rangePosicao2, #rangePosicao3{
-    width: 64%;
+    width: 63%;
 }
 
 #inputCurrentPosicao1, #inputCurrentPosicao2, #inputCurrentPosicao3{
