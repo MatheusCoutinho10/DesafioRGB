@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-    font-size: 300%;
+    font-size: 200%;
 }
 
 label{
@@ -19,7 +19,7 @@ input{
 }
 
 #rangePosicao1, #rangePosicao2, #rangePosicao3{
-    width: 58%;
+    width: 57%;
 }
 
 #inputCurrentPosicao1, #inputCurrentPosicao2, #inputCurrentPosicao3{
